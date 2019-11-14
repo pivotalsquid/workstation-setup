@@ -56,6 +56,6 @@ do
 done
 
 source ${MY_DIR}/scripts/common/finished.sh
-if (( SKIP_ANALYTICS == 0 )); then
-    source ${MY_DIR}/scripts/helpers/google-analytics.sh ${clientID} finish $@
-fi
+#if (( SKIP_ANALYTICS == 0 )); then
+#    source ${MY_DIR}/scripts/helpers/google-analytics.sh ${clientID} finish $@
+#fi
